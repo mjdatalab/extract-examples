@@ -48,6 +48,4 @@ while page <= tp:
     else:
         print('Found {} pages from {} route!!'.format(page, call))
         break
-    with open('filename.json', 'w') as json_file:
-            json.dump(data, json_file)
 
